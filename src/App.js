@@ -7,14 +7,15 @@ import Dictionary from './Dictionary';
 export default function App() {
   return (
     <div className="App">
-      <div className='container'>
+      <div className="container">
         <header className="App-header"></header>
         <main>
-          <Dictionary/>
+          <Dictionary />
         </main>
 
-        <footer className='App-footer'>
-          Coded by Tiina Rojola
+        <footer className="App-footer">
+          Coded by{" "}
+          <a href="https://github.com/TZR71/dictionary">Tiina Rojola</a>
         </footer>
       </div>
     </div>
