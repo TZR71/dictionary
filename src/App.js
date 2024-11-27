@@ -10,7 +10,7 @@ export default function App() {
       <div className="container">
         <header className="App-header"></header>
         <main>
-          <Dictionary />
+          <Dictionary defaultKeyword="sunrise"/>
         </main>
 
         <footer className="App-footer">

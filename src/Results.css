@@ -1,0 +1,22 @@
+.Results h2{
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 1.5;
+    padding-bottom:10px;
+    text-decoration: underline 3px rgb(199, 204, 204);
+
+}
+.Results i{    
+    color:rgb(84, 84, 86);
+    font-size: 20px;
+
+}
+
+@media(max-width:950px){
+   .Results h2{
+    font-size: 20px;
+   }
+   .Results h3{
+    font-size: 15px;
+   }
+}

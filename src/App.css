@@ -1,5 +1,20 @@
+body{   
+    font-family:"Parkinsans", serif;; 
+    background-image: url("back1.jpg") ;  
+    background-position: center;   
+    background-attachment: fixed;
+    margin-top:100px;     
+}
+
 .App-footer{
-font-size:12px;
-text-align: center;
-margin:35px;
+    font-size:14px;
+    text-align: center;
+    margin:35px;
+    color:aliceblue;
+}
+
+@media(max-width:950px){
+   body{
+     margin-top:50px;
+    }
 }
