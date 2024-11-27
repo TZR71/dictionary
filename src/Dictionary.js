@@ -10,7 +10,7 @@ export default function Dictionary(){
 
     function handleResponse(response){
        // console.log(response.data);
-        //console.log(response.data.meanings[0].definition);
+       //console.log(response.data.meanings[0].definition);
         setResults(response.data);
     }
 
@@ -28,8 +28,6 @@ export default function Dictionary(){
         console.log(event.target.value);
         setKeyword(event.target.value);
         }
-
-
 
   return (
      <div className="Dictionary">
