@@ -1,11 +1,16 @@
+.Dictionary .Question{
+  text-align: center;}
+  
 .Dictionary section{  
-  max-width: 900px;
+  max-width: 800px;
   text-align: left;
   background-color: rgb(237, 226, 240);
   opacity: 90%;
   padding: 15px;
+  padding-left: 30px;
   border-radius: 5px;
-  box-shadow: -8px 6px 6px rgba(0,0,0,0.5);
+  border: 0.5px solid rgb(55, 13, 55);
+  box-shadow: -8px 6px 6px rgba(0,0,0,0.9);
   margin:15px auto;
 }
 .Dictionary input{

@@ -9,10 +9,15 @@ body{
 }
 
 .App-footer{
-    font-size:14px;
+    max-width: 500px;
     text-align: center;
-    margin:35px;
-    color:aliceblue;
+    background-color: rgb(237, 226, 240);
+    opacity: 90%;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: -8px 6px 6px rgba(0,0,0,0.9);
+    margin:15px auto;
+    border: 0.5px solid rgb(55, 13, 55);
 }
 
 @media(max-width:950px){
