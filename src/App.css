@@ -1,11 +1,11 @@
 body{   
     font-family:"Parkinsans", serif;; 
-    background-image: url("back.jpg") ;  
-    background-position: center;   
+    background-image: url("hearts2.jpg") ;  
+    background-position: center;  
     background-attachment: fixed;
     background-repeat: no-repeat;
     margin-top:100px;     
-    height: 90%;
+    
 }
 
 .App-footer{
