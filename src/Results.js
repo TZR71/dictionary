@@ -13,7 +13,7 @@ export default function Results(props){
           <section className="Word">
             <h2>{props.results.word}</h2>
             <h3>                            
-                <i>{props.results.phonetic}</i>              
+                <i>[ {props.results.phonetic} ]</i>              
             </h3>
           </section>
           {props.results.meanings.map(function (meaning, index) {

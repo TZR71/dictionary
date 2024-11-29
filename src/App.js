@@ -10,12 +10,18 @@ export default function App() {
       <div className="container">
         <header className="App-header"></header>
         <main>
-          <Dictionary defaultKeyword="sunrise"/>
+          <Dictionary defaultKeyword="sunrise" />
         </main>
 
         <footer className="App-footer">
           Coded by{" "}
-          <a href="https://github.com/TZR71/dictionary">Tiina Rojola</a>
+          <a
+            href="https://github.com/TZR71/dictionary"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Tiina Rojola
+          </a>
         </footer>
       </div>
     </div>

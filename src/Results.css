@@ -1,6 +1,7 @@
 .Results .Word{
     text-align: center; 
-    color: rgb(55, 13, 55);  
+    color: rgb(55, 13, 55); 
+    padding: 15px 0;
 }
 .Results h2{
     font-size: 35px;

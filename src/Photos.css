@@ -1,0 +1,16 @@
+
+
+.Photos .row{
+   margin-top:25px;
+   margin-right: 10px;
+   
+}
+
+.Photos  img{
+    border: 0.5px solid rgb(55, 13, 55);
+    border-radius: 5px;
+    margin-bottom:25px;
+    
+    
+    
+}
