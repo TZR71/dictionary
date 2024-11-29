@@ -2,8 +2,7 @@ import React from "react";
 import "./Photos.css";
 
 
-export default function Photos(props){
-   // console.log(props.photos);
+export default function Photos(props){   
 if(props.photos){
     return(
          <section className="Photos">
@@ -14,8 +13,7 @@ if(props.photos){
                     <a
                       href={photo.src.original}
                       target="_blank"
-                      rel="noopener noreferrer"
-                    >
+                      rel="noopener noreferrer">
                       <img
                         src={photo.src.landscape}
                         className="img-fluid"

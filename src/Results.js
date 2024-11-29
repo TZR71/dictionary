@@ -4,16 +4,14 @@ import "./Results.css";
 
 
 //receives <Results results={results}/> from Dictionary.js
-export default function Results(props){
-   // console.log(props.results);
-
+export default function Results(props){  
     if(props.results){
       return (
         <div className="Results">
           <section className="Word">
             <h2>{props.results.word}</h2>
-            <h3>                            
-                <i>[ {props.results.phonetic} ]</i>              
+            <h3>
+              <i>[ {props.results.phonetic} ]</i>
             </h3>
           </section>
           {props.results.meanings.map(function (meaning, index) {
@@ -26,8 +24,8 @@ export default function Results(props){
         </div>
       );
         
-    }else{        
+    } else {        
     return null;
-  };
-    }
+  }
+}
 

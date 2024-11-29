@@ -11,18 +11,13 @@ export default function Dictionary(props){
     let [loaded, setLoaded]=useState(false);
     let [photos, setPhotos]=useState(null);
 
-    function handleDictionaryResponse(response){
-       // console.log(response.data);
-       //console.log(response.data.meanings[0].definition);
+    function handleDictionaryResponse(response){       
         setResults(response.data);
     }
-    function handleImgResponse(response){
-     // console.log(response.data);
+    function handleImgResponse(response){     
      setPhotos(response.data.photos);
-
     }
    
-
     function search(){
       //documentation: https://www.shecodes.io/learn/apis/dictionary
       const apiKey = "eb0432d8499otf6b1e6a9e4fe11cf387";
@@ -38,15 +33,14 @@ export default function Dictionary(props){
       search();      
     }           
     
-    function handleKeywordChange(event){
-        //console.log(event.target.value);
+    function handleKeywordChange(event){        
         setKeyword(event.target.value);
-        }
+    }
 
-        function load(){
-          setLoaded(true);
-          search();
-        }
+    function load(){
+        setLoaded(true);
+        search();
+    }
 
         if(loaded){
           return (
@@ -65,9 +59,8 @@ export default function Dictionary(props){
               <Photos photos={photos}/>
             </div>
           );
-        }else{
-          load();
+        } else {
+         load();
           return "Loading dictionary..";
-
         }
 }
