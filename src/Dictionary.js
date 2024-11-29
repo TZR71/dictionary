@@ -21,6 +21,7 @@ export default function Dictionary(props){
      setPhotos(response.data.photos);
 
     }
+   
 
     function search(){
       //documentation: https://www.shecodes.io/learn/apis/dictionary

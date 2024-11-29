@@ -16,7 +16,11 @@ if(props.photos){
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <img src={photo.src.landscape} className="img-fluid"/>{" "}
+                      <img
+                        src={photo.src.landscape}
+                        className="img-fluid"
+                        alt="Description"
+                      />{" "}
                     </a>
                   </div>
                 );
